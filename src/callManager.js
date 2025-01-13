@@ -108,7 +108,7 @@ async generateAIResponse(call) {
     5. If no order is placed yet, help them choose from the menu, dont repeat menu again
     6. Always confirm orders and addresses received and tell the total price using above menu and confirm the order
     7. if size of pizza is not specified ask for the size of specific pizza for which size is not specified.
-    8. if order is received and address is confirmed then greet thank you for using our services and say bye,have a great day and  stop
+    8. if order is received and address is confirmed then greet thank you for using our services and say bye,have a great day and don't be repetitive
     9. Keep responses under 3 sentences unless listing menu items
     10. Never mention being an AI or having technical difficulties
     
