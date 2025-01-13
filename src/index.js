@@ -20,7 +20,7 @@ const io = new Server(httpServer, {
       methods: ["GET", "POST", "DELETE"],
       credentials: true,
       allowedHeaders: ['Content-Type'],
-    }
+    },path: "/socket.io/"
   });
 
 // Middleware
