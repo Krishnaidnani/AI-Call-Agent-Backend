@@ -12,12 +12,7 @@ const routes = require('./routes/index');
 
 dotenv.config();
 const app = express();
-app.use(cors({
-  origin: '*',  // or specify the frontend URL like 'http://localhost:5173'
-  methods: ['GET', 'POST', 'DELETE'],
-  allowedHeaders: ['Content-Type'],
-  credentials: true,
-}));
+app.use(cors());
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
     cors: {
